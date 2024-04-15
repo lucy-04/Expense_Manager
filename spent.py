@@ -126,5 +126,3 @@ def delete_budget_table(i):
     '''.format(i)
     cur.execute(sql)   
     conn.commit()
-
-print(existing_tables())
